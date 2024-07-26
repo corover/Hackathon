@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const objectid = require("mongoose").Types.ObjectId;
 const Tag = require("./models/Tag");
-const Drag = require("./backend/models/canvas");
+const Drag = require("./models/canvas");
 
 //Endpoint to give the total tags that is present inside the master data
 router.get("/getalltags", async (req, res) => {
