@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const TagSchema = mongoose.Schema({
-    tag:{
+    type:{
         type:String,
     },
-    Value:{
+    content:{
         type:String,
     }
 },{

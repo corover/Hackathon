@@ -1,13 +1,10 @@
 const mongoose = require('mongoose');
 const DragDropSchema = mongoose.Schema({
-    MetaData: {
-        type:String,
-    },
     CanvasElements:[{
-        tag:{
+        type:{
             type:String,
         },
-        Value:{
+        content:{
             type:String,
         }
     }],
