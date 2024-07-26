@@ -36,7 +36,7 @@ const App = () => {
   const renderElement = (element, index) => {
     const Tag = element.type;
     return (
-      <div key={index} style={{ marginBottom: '10px' ,display: 'inline-grid'}}>
+      <div key={index} style={{ marginBottom: '10px' }}>
         {element.type === 'img' ? (
           <>
             <Tag src={element.content} style={{ maxWidth: '100%' }} />
